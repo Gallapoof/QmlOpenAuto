@@ -1,0 +1,23 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+.vscode/
+
+lib/
+bin/
+.idea/
+build/
+
+CMakeLists.txt.user
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+*_autogen/
+*.pb.cc
+*.pb.h
